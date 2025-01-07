@@ -47,6 +47,7 @@ var (
 type Long int64
 
 // ImplementsGraphQLType returns true if Long implements the provided GraphQL type.
+// TODO read
 func (b Long) ImplementsGraphQLType(name string) bool { return name == "Long" }
 
 // UnmarshalGraphQL unmarshals the provided GraphQL query data.
